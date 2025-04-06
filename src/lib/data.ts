@@ -115,7 +115,7 @@ export const insights: InsightCard[] = [
   {
     id: 'insight-2',
     type: 'full-insight',
-    content: 'The most creative people I know don't start with a blank canvas—they start with a specific problem to solve or a constraint to work within. That's what gives their work purpose and direction.',
+    content: "The most creative people I know don't start with a blank canvas—they start with a specific problem to solve or a constraint to work within. That's what gives their work purpose and direction.",
     sourceId: 'source-1',
     stackIds: ['stack-1'],
   },
