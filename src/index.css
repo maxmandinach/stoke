@@ -105,6 +105,15 @@
   }
   
   .btn-stoke-rating {
-    @apply px-3 py-1.5 rounded-full text-sm font-medium transition-all flex items-center gap-1.5;
+    @apply px-3 py-1.5 rounded-full text-sm font-medium transition-all flex items-center gap-1.5 border border-transparent;
+  }
+
+  /* New stoke-specific styles */
+  .stoke-section {
+    @apply rounded-xl border border-stoke-forest/20 p-4 bg-white;
+  }
+  
+  .stoke-pill {
+    @apply rounded-full px-4 py-2 bg-white border border-stoke-forest/20 text-stoke-forest hover:bg-stoke-sand/30 transition-colors flex items-center gap-2;
   }
 }
