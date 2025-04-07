@@ -65,7 +65,9 @@ const InsightCard: React.FC<InsightCardProps> = ({ insight, onRate }) => {
                 Supplementary
               </div>
               <h3 className="font-serif text-lg font-medium">{insight.question}</h3>
-              <p className="mt-2">{insight.answer}</p>
+              {revealed && (
+                <p className="mt-2">{insight.answer}</p>
+              )}
             </div>
           )}
         </CardContent>
